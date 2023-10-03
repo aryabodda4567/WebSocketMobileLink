@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Search Bar with Autocomplete Search Suggestions in JavaScript</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="searchInput">
+    <input type="text" placeholder="Enter command" id="messageInput">
+    <button class="button-3" onclick="sendMessage()" >Go</button>
+    <div class="resultBox" >
+      <!-- here list are inserted from javascript -->
+    </div>
+    <div class="icon"><i class="fas fa-search"></i></div>
+  </div>
+  <pre id="json-container" style="color: white;"></pre>
+
+</div>
+
+<!-- partial -->
+  <script  src="./suggestion_script.js"></script>
+  <script src="./websocket_script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

