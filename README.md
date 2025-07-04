@@ -1,52 +1,54 @@
 # WebSocketMobileLink
 
-Description:
-Welcome to the WebSocket-Based Mobile-Computer Connection System using LAN! This project is designed to provide connectivity between your mobile device and computer by utilizing WebSocket technology. Whether you want to remotely control your computer from your mobile device or simply establish a quick and secure connection, this system has got you covered.
+Welcome to the WebSocket-Based Mobile-Computer Connection System using LAN! This project provides seamless connectivity between your mobile device and computer by utilizing WebSocket technology. Whether you want to remotely control your computer from your mobile device or simply establish a quick and secure connection, this system has got you covered.
 
-# Features:
- WebSocket Server in Python: 
-We've created a robust WebSocket server in Python that serves as the backbone of this system. It facilitates real-time communication between your mobile device and computer.
+## Features
 
-QR Code-Based Connection:	  Connecting your mobile device to your computer is a breeze. Simply connect your computer and mobile to same WI-FI and scan the generated QR code using the mobile app, and you'll be instantly connected.
+- **WebSocket Server in Python:**  
+  A robust WebSocket server (Python) serves as the backbone, enabling real-time communication between your mobile device and computer.
 
-Android Application: We've developed a dedicated Android application that makes connecting your mobile device to the computer a snap. Install the app, scan the QR code, and you're ready to go.
+- **QR Code-Based Connection:**  
+  Connect your mobile device to your computer easily. Just ensure both devices are on the same Wi-Fi, scan the generated QR code using the mobile app, and you’re instantly connected.
 
-Remote Control: Once connected, a webpage is automatically opened on your computer. From this web interface, you can send commands and instructions to your mobile device, enabling you to control it remotely in the same WI-FI.
+- **Android Application:**  
+  A dedicated Android app allows you to connect by scanning a QR code. Once connected, you are ready to go.
 
-Seamless Interaction: Our system offers a seamless and intuitive interaction between your mobile device and computer.  
+- **Remote Control:**  
+  After connection, a webpage is opened on your computer. From this web interface, you can send commands and instructions to your mobile device for remote control within the same Wi-Fi.
 
+- **Seamless Interaction:**  
+  The system provides an intuitive and seamless interaction between your mobile device and computer.
 
+## How to Use
 
-Experience the future of mobile-computer connectivity with our WebSocket-Based Mobile-Computer Connection System. Say goodbye to the hassles of traditional connection methods and enjoy the convenience of remote control and interaction. Get started today!
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/aryabodda4567/WebSocketMobileLink.git
+    ```
 
+2. **Set up the Controller Server:**
+    - Navigate to the `Controller Server` directory.
+    - Install dependencies:
+      ```sh
+      pip install -r requirements.txt
+      ```
+    - Run the server:
+      ```sh
+      python main.py
+      ```
 
-# How to use:
+3. **Set up the Android Controller:**
+    - Open the `Controller` project in Android Studio.
+    - Build and install the APK on your Android device.
 
-=> Clone the repo
+4. **Connect:**
+    - Open the installed app and scan the QR code displayed by the server.
+    - A web page will open in your computer’s browser. From there, you can access and control the mobile device.
 
-=> Go to Controller Server
+## Note
 
-=> Run the requirement.txt
+- If the system is not working perfectly after the first run, remove the browser from RAM and restart the server.
 
-=> Now run main.py
+---
 
-=> Now open the Controller in Android Studio and createa an APK
-
-=> Open the installed app and scan the qr
-
-=> Now a web page will be opened in the Computer`s browser, from there you can acces the mobile device
-
-
-# Note:
-=> if its not working perfectly after a first run remove browser from ram and restart the server
-
-
-
-
-
-
-
-
-
-
-
+**Experience the future of mobile-computer connectivity with our WebSocket-Based Mobile-Computer Connection System. Say goodbye to the hassles of traditional connection methods and enjoy the convenience of remote control and interaction. Get started today!**
